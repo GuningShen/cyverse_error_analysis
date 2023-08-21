@@ -9,7 +9,7 @@
 ## Explanation on the graph algorithm
 - Each command is represented by a graph node with the following attributes: program (String), type of error (String), frequency of command (int), full command dictionary (dict), children command dictionary (dict).
 <p align="center">
-  <img src="https://github.com/GuningShen/cyverse_error_analysis/assets/77816197/946d1f4f-7c17-48aa-aa10-65cbff4dcb1a" alt="error graph" width="500"/>
+  <img src="https://github.com/GuningShen/cyverse_error_analysis/assets/77816197/946d1f4f-7c17-48aa-aa10-65cbff4dcb1a" alt="error graph" width="270"/>
 </p>
 - Using the attribute information from each node, two graphs could be constructed following the algorithm in Error_Tree.ipynb: Graph 1 of previous commands and Graph 2 of commands after error. Graph 1 could be used for predicting error and graph 2 is used for tracing how users correct their errors.
 <p align="center">
